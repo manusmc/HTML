@@ -1,0 +1,24 @@
+div {
+
+}
+
+table {
+  color: white;
+  border: 5px solid white;
+}
+
+td {
+  color: white;
+  border: 1px dashed white;
+}
+
+/*tr {
+  color: white;
+  border: 1px dashed white;
+  text-align: center;
+}*/
+
+th {
+  color: white;
+  border: 1px solid white;
+}
