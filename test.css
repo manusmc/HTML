@@ -1,13 +1,40 @@
-div {
-
+div.button {
+  height: 50px;
+  width: 120px;
+  border-color: #6495ED;
+  background-color: #BCD2EE;
+  border-width: 2px;
+  border-style: groove;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
 }
 
-table {
+div.body {
+  height: auto;
+  width: auto;
+  border-color: green;
+  background-color: white;
+  border-width: 5px;
+  border-style: groove;
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-radius: 10px;
+}
+
+
+body.test1 {
+  color: green;
+  background-color: black;
+}
+
+table.lunch {
   color: white;
   border: 5px solid white;
 }
 
-td {
+td.lunch {
   color: white;
   border: 1px dashed white;
 }
@@ -18,7 +45,50 @@ td {
   text-align: center;
 }*/
 
-th {
+th.lunch {
   color: white;
   border: 1px solid white;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a.CD-link {
+ text-decoration: none;
+ color: blue;
+ font-size: 0.75em;
+}
+
+ul {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+ul.menu li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul.menu li a {
+  color: black;
+  text-decoration: none;
+}
+
+ul.menu li a:hover {
+  text-decoration: underline;
+  color: green;
+  font-weight: bold;
+}
+
+span.fancy {
+  color:red;
+  font-family: Verdana;
+  font-size: 4em;
 }

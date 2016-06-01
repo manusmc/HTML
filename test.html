@@ -6,44 +6,59 @@
 <link type="text/css" rel="stylesheet" href="test.css"/>
   <head>
     <title>Test</title>
-    <style>
-      body {
-        color: green;
-        background-color: black;
-      }
-    </style>
   </head>
 
-  <body>
+  <body class="test1">
 
-    <table>
+    <ul class="menu">
+      <li class="selected"><a>Page 1</a></li>
+      <li><a href="file:///home/coderdojo/Desktop/HTML/test2.html">Page 2</a></li>
+      <li><a href="file:///home/coderdojo/Desktop/HTML/test2.html">Page 3</a></li>
+    </ul>
+
+
+    <table class="lunch">
 
       <thead>
 
-        <th colspan="3" style="text-align: center">Lunch Menu</th>
+        <th colspan="3" style="text-align: center" class="lunch">Lunch Menu</th>
 
       </thead>
 
       <tbody>
         <tr style="font-family:Courier">
-          <td>Item</td>
-          <td>Price</td>
-          <td>Calories</td>
+          <td class="lunch">Item</td>
+          <td class="lunch">Price</td>
+          <td class="lunch">Calories</td>
         </tr>
         <tr>
-          <td>X</td><td>5</td><td>100</td>
+          <td class="lunch">X</td>
+          <td class="lunch">5</td>
+          <td class="lunch">100</td>
         </tr>
         <tr>
-          <td>Y</td><td>4</td><td>200</td>
+          <td class="lunch">Y</td>
+          <td class="lunch">4</td>
+          <td class="lunch">200</td>
         </tr>
       </tbody>
 
     </table>
 
-    <h1><strong>Test webpage</strong></h1>
-    <h2>Welcome to the <em>test</em> webpage</h2>
-    <h3>Test <span style="color: blue; font-family: Arial">sentence</span></h3>
-    <p><span style="color:red; font-family: Verdana; font-size: 60px">W</span>elcome to this webpage</p>
+    <div class="body">
+
+      <h1><strong>Test webpage</strong></h1>
+      <h2>Welcome to the <em>test</em> webpage</h2>
+      <h3>Test <span style="color: blue; font-family: Arial">sentence</span></h3>
+      <p><span class="fancy">W</span>elcome to this webpage</p>
+      
+    </div>
+
+    <a href="https://coderdojo.com/" class="CD-link">
+      <div class="button"> Created using phil's notes that can be found at coderdojo.
+      </div>
+    </a>
+
   </body>
 
 </html>
