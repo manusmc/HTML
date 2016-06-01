@@ -1,0 +1,39 @@
+* {
+  font-family: Arial;
+  background-color: #CCFFFF;
+}
+
+p.info1 {
+  background-color: #CCFFFF;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 5px;
+  border-color: #99CCFF;
+}
+
+ul {
+  background-color: #CCFFFF;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 5px;
+  border-color: #99CCFF;
+}
+
+h1.basicH1 {
+  border-style: inset;
+  border-radius: 3px;
+  border-width: 3px;
+  border-color: black;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #99CCFF;
+}
+
+div.main {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+span.spanBold {
+  font-weight: bold;
+}
